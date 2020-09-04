@@ -20,7 +20,7 @@ function removeLoadingSpinner(){
 // GET QUOTE FROM API
 async function getQuote(){
     showLoadingSpinner()
-    const proxyUrl = 'https://sheltered-wave-26854.herokuapp.com/';
+    const proxyUrl = 'https://damp-taiga-20104.herokuapp.com/';
     const apiUrl = 'http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json';
     try{
         const response = await fetch(proxyUrl + apiUrl);
